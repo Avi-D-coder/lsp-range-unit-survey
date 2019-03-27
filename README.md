@@ -14,7 +14,7 @@ Please send a PR if you know what unit (UTF-8, UTF-16, Codepoints, grapheme clus
 
 ## Server Count
 - UTF-8: 4
-- UTF-16: 3
+- UTF-16: 5
 - Codepoints: 3
 - grapheme clusters: 0
 
@@ -41,7 +41,8 @@ If a implementation of the language server protocol is missing from this list pl
 - **unknown** Clojure snoe [snoe/clojure-lsp](https://github.com/snoe/clojure-lsp)
 - **unknown** CSS/LESS/SASS Microsoft [Microsoft/vscode/tree/master/extensions/css](https://github.com/Microsoft/vscode/tree/master/extensions/css)
 - **unknown** CSS/LESS/SASS DeltaEvo [vscode-langservers/vscode-css-languageserver-bin](https://github.com/vscode-langservers/vscode-css-languageserver-bin)
-- **unknown** D WebFreak001 [Pure-D/serve-d](https://github.com/Pure-D/serve-d)
+- [**UTF-16**](https://github.com/Pure-D/serve-d/blob/master/source/served/textdocumentmanager.d) D WebFreak001 [Pure-D/serve-d](https://github.com/Pure-D/serve-d)
+- [**UTF-16**](https://github.com/d-language-server/dls/blob/master/util/source/dls/util/document.d) D Laurent Tréguier [d-language-server/dls](https://github.com/d-language-server/dls)
 - **unknown** Dart Nate Bosch [natebosch/dart_language_server](https://github.com/natebosch/dart_language_server)
 - **unknown** Dockerfile Remy Suen [rcjsuen/dockerfile-language-server-nodejs](https://github.com/rcjsuen/dockerfile-language-server-nodejs)
 - **unknown** DreamMaker SpaceManiac [SpaceManiac/SpacemanDMM/tree/master/src/langserver](https://github.com/SpaceManiac/SpacemanDMM/tree/master/src/langserver)
