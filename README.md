@@ -51,13 +51,13 @@ If a implementation of the language server protocol is missing from this list pl
 - **unknown** Fortran Chris Hansen [hansec/fortran-language-server](https://github.com/hansec/fortran-language-server)
 - **unknown** Gauge Gauge [getgauge/gauge](https://github.com/getgauge/gauge)
 - **unknown** GLSL Sven-Hendrik Haase [svenstaro/glsl-language-server](https://github.com/svenstaro/glsl-language-server)
-- [Codepoints](http://www.url.com) Go Sourcegraph [sourcegraph/go-langserver](https://github.com/sourcegraph/go-langserver)
+- [**Codepoints**](http://www.url.com) Go Sourcegraph [sourcegraph/go-langserver](https://github.com/sourcegraph/go-langserver)
 - **unknown** No arbitrary code execution2
 - **unknown** Files extension3
 - **unknown** SymbolDescriptor extension4
 - **unknown** GraphQL Facebook GraphQL [graphql/graphql-language-service](https://github.com/graphql/graphql-language-service)
 - **unknown** Groovy Palantir [palantir/groovy-language-server](https://github.com/palantir/groovy-language-server)
-- [Codepoints, soon UTF-16](https://github.com/alanz/haskell-lsp/pull/70) Haskell Alan Zimmerman [haskell/haskell-ide-engine](https://github.com/haskell/haskell-ide-engine)
+- [**Codepoints, soon UTF-16**](https://github.com/alanz/haskell-lsp/pull/70) Haskell Alan Zimmerman [haskell/haskell-ide-engine](https://github.com/haskell/haskell-ide-engine)
 - **unknown** Haxe Haxe Foundation [vshaxe/haxe-language-server](https://github.com/vshaxe/haxe-language-server)
 - **unknown** HTML Microsoft [Microsoft/vscode/tree/master/extensions/html](https://github.com/Microsoft/vscode/tree/master/extensions/html)
 - **unknown** Imandra Protocol Language Aesthetic Integration https://[AestheticIntegration/ipl-vscode](https://github.com/AestheticIntegration/ipl-vscode)
@@ -100,7 +100,7 @@ If a implementation of the language server protocol is missing from this list pl
 - **unknown** Scala Scalameta [scalameta/metals](https://github.com/scalameta/metals)
 - **unknown** SPARQL Stardog Union [stardog-union/stardog-language-servers/tree/master/packages/sparql-language-server](https://github.com/stardog-union/stardog-language-servers/tree/master/packages/sparql-language-server)
 - **unknown** No arbitrary code execution2
-- [UTF-16](https://bugs.swift.org/browse/SR-9311) Swift & C-family Apple Inc [apple/sourcekit-lsp](https://github.com/apple/sourcekit-lsp)
+- [**UTF-16**](https://bugs.swift.org/browse/SR-9311) Swift & C-family Apple Inc [apple/sourcekit-lsp](https://github.com/apple/sourcekit-lsp)
 - **unknown** Turtle Stardog Union [stardog-union/stardog-language-servers/tree/master/packages/turtle-language-server](https://github.com/stardog-union/stardog-language-servers/tree/master/packages/turtle-language-server)
 - **unknown** No arbitrary code execution2
 - **unknown** TypeScript Sourcegraph [sourcegraph/javascript-typescript-langserver](https://github.com/sourcegraph/javascript-typescript-langserver)
