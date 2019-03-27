@@ -117,7 +117,7 @@ If a implementation of the language server protocol is missing from this list pl
 
 ### Work in Progress
 
-- **unknown** Crystal Ryan L. Bell and contributors [crystal-lang-tools/scry](https://github.com/crystal-lang-tools/scry)
+- [**UTF-8**](https://github.com/crystal-lang-tools/scry/issues/154) Crystal Ryan L. Bell and contributors [crystal-lang-tools/scry](https://github.com/crystal-lang-tools/scry)
 - **unknown** Elm Elm Tooling [elm-tooling/elm-language-server](https://github.com/elm-tooling/elm-language-server)
 - **unknown** reStructuredText Lex Li https://[lextm/restructuredtext-antlr](https://github.com/lextm/restructuredtext-antlr)
 - **unknown** Ruby Fumiaki MATSUSHIMA [mtsmfm/language_server-ruby](https://github.com/mtsmfm/language_server-ruby)
