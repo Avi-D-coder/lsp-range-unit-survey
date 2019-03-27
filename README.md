@@ -7,22 +7,24 @@ Please send a PR if you know what unit (UTF-8, UTF-16, Codepoints, grapheme clus
 **unkown** should be replaced with `[**unit**](issue/relevant information)` and count should be updated.
 
 ## Implementations Count
-- UTF-8: 4
-- UTF-16: 5
+- UTF-8: 8
+- UTF-16: 10
 - Codepoints: 3
 - grapheme clusters: 1
 
 ## Server Count
-- UTF-8: 4
-- UTF-16: 5
+- UTF-8: 6
+- UTF-16: 7
 - Codepoints: 3
 - grapheme clusters: 0
 
 ## Client Count
-- UTF-8: 0
+- UTF-8: 2
 - UTF-16: 3
 - Codepoints: 0
 - grapheme clusters: 1
+
+note: Multiple implementations in the same repo or derived from a shared dependency are counted once.
 
 List Dervied from [langserver.org](https://langserver.org).
 If a implementation of the language server protocol is missing from this list please submit a PR here and [github.com/langserver/langserver.github.io](https://github.com/langserver/langserver.github.io).
@@ -50,7 +52,7 @@ If a implementation of the language server protocol is missing from this list pl
 - **unknown** Erlang Erlang/OTPand Vlad Dumitrescu [erlang/sourcer](https://github.com/erlang/sourcer)
 - **unknown** Elixir Jake Becker [JakeBecker/elixir-ls](https://github.com/JakeBecker/elixir-ls)
 - **unknown** Fortran Chris Hansen [hansec/fortran-language-server](https://github.com/hansec/fortran-language-server)
-- **unknown** Gauge Gauge [getgauge/gauge](https://github.com/getgauge/gauge)
+- [**UTF-8**](https://gitter.im/getgauge/chat) Gauge Gauge [getgauge/gauge](https://github.com/getgauge/gauge)
 - **unknown** GLSL Sven-Hendrik Haase [svenstaro/glsl-language-server](https://github.com/svenstaro/glsl-language-server)
 - [**Codepoints**](http://www.url.com) Go Sourcegraph [sourcegraph/go-langserver](https://github.com/sourcegraph/go-langserver)
 - **unknown** No arbitrary code execution2
@@ -96,6 +98,7 @@ If a implementation of the language server protocol is missing from this list pl
 - **unknown** R REditorSupport [REditorSupport/languageserver](https://github.com/REditorSupport/languageserver)
 - **unknown** Ruby Fred Snyder [castwide/solargraph](https://github.com/castwide/solargraph)
 - [**Codepoints**](https://github.com/rust-lang/rls/issues/1113) Rust Nick Cameron and the Rust community [rust-lang-nursery/rls](https://github.com/rust-lang-nursery/rls)
+- [**UTF-16**](https://www.reddit.com/r/programming/comments/b5xoem/lsp_character_index_unit_survey/ejh8e3k) Aleksey Kladov [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer)
 - **unknown** Automatic dependency management1
 - **unknown** Scala Iulian Dragos [dragos/dragos-vscode-scala](https://github.com/dragos/dragos-vscode-scala)
 - **unknown** Scala Scalameta [scalameta/metals](https://github.com/scalameta/metals)
@@ -131,12 +134,12 @@ If a implementation of the language server protocol is missing from this list pl
 - **unknown** Moonshine IDE Prominic [prominic/Moonshine-IDE](https://github.com/prominic/Moonshine-IDE)
 - **UTF-16** VSCode Microsoft [Microsoft/VSCode](https://github.com/Microsoft/VSCode)
 - **unknown** vim/neovim Nate Bosch [natebosch/vim-lsc](https://github.com/natebosch/vim-lsc)
-- **unknown** vim/neovim Prabir Shrestha [prabirshrestha/vim-lsp](https://github.com/prabirshrestha/vim-lsp)
-- **unknown** vim/neovim Junfeng Li [autozimu/LanguageClient-neovim](https://github.com/autozimu/LanguageClient-neovim)
+- [UTF-8; soon maybe UTF-16](https://github.com/prabirshrestha/vim-lsp/pull/284) vim/neovim Prabir Shrestha [prabirshrestha/vim-lsp](https://github.com/prabirshrestha/vim-lsp)
+- [UTF-8](https://github.com/autozimu/LanguageClient-neovim/issues/127) vim/neovim Junfeng Li [autozimu/LanguageClient-neovim](https://github.com/autozimu/LanguageClient-neovim)
 - **unknown** vim/neovim w0rp [w0rp/ale](https://github.com/w0rp/ale)
 - **UTF-16** vim/neovim Qiming zhao [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
 - **unknown** Sublime Text 3 Tom van Ommeren [tomv564/LSP](https://github.com/tomv564/LSP)
-- **unknown** MS Monaco Editor TypeFox [TypeFox/monaco-languageclient](https://github.com/TypeFox/monaco-languageclient)
+- **UTF-16** MS Monaco Editor TypeFox [TypeFox/monaco-languageclient](https://github.com/TypeFox/monaco-languageclient)
 - [**UTF-16**](https://github.com/Valloric/ycmd/pull/857) ycmd ycmd authors [Valloric/ycmd](https://github.com/Valloric/ycmd)
 
 ### Work in progress
@@ -147,7 +150,6 @@ If a implementation of the language server protocol is missing from this list pl
 - **unknown** Emacs Corey Richardson [sourcegraph/emacs-lsp](https://github.com/sourcegraph/emacs-lsp)
 - **unknown** Emacs Vibhav Pant [emacs-lsp/lsp-mode](https://github.com/emacs-lsp/lsp-mode)
 - **unknown** Emacs João Távora [joaotavora/eglot](https://github.com/joaotavora/eglot)
-- **unknown** Sublime Sourcegraph [sourcegraph/sublime-lsp](https://github.com/sourcegraph/sublime-lsp)
 - **unknown** Theia Theia IDE [theia-ide/theia](https://github.com/theia-ide/theia)
 - **unknown** neovim TJ DeVries [tjdevries/nvim-langserver-shim](https://github.com/tjdevries/nvim-langserver-shim)
 - **unknown** Spyder IDE Spyder IDE Dev Team [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
