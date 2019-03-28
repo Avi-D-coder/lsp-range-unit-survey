@@ -7,19 +7,19 @@ Please send a PR if you know what unit (UTF-8, UTF-16, Codepoints, grapheme clus
 **unkown** should be replaced with `[**unit**](issue/relevant information)` and count should be updated.
 
 ## Implementations Count
-- UTF-8: 8
+- UTF-8: 9
 - UTF-16: 10
 - Codepoints: 3
 - grapheme clusters: 1
 
 ## Server Count
 - UTF-8: 6
-- UTF-16: 7
+- UTF-16: 7, Several UTF-16 servers would prefer UTF-8
 - Codepoints: 3
 - grapheme clusters: 0
 
 ## Client Count
-- UTF-8: 2
+- UTF-8: 3
 - UTF-16: 3
 - Codepoints: 0
 - grapheme clusters: 1
@@ -149,7 +149,7 @@ If a implementation of the language server protocol is missing from this list pl
 - **unknown** CodeMirror Wylie Conlon [wylieconlon/lsp-editor-adapter](https://github.com/wylieconlon/lsp-editor-adapter)
 - **unknown** Emacs Corey Richardson [sourcegraph/emacs-lsp](https://github.com/sourcegraph/emacs-lsp)
 - **unknown** Emacs Vibhav Pant [emacs-lsp/lsp-mode](https://github.com/emacs-lsp/lsp-mode)
-- **unknown** Emacs João Távora [joaotavora/eglot](https://github.com/joaotavora/eglot)
+- [**UTF-8**, UTF-16 disabled by default](https://github.com/joaotavora/eglot/issues/244) Emacs João Távora [joaotavora/eglot](https://github.com/joaotavora/eglot)
 - **unknown** Theia Theia IDE [theia-ide/theia](https://github.com/theia-ide/theia)
 - **unknown** neovim TJ DeVries [tjdevries/nvim-langserver-shim](https://github.com/tjdevries/nvim-langserver-shim)
 - **unknown** Spyder IDE Spyder IDE Dev Team [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
