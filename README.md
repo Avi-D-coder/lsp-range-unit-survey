@@ -7,7 +7,7 @@ Please send a PR if you know what unit (UTF-8, UTF-16, Codepoints, grapheme clus
 **unkown** should be replaced with `[**unit**](issue/relevant information)` and count should be updated.
 
 ## Implementations Count
-- UTF-8: 9
+- UTF-8: 10
 - UTF-16: 10
 - Codepoints: 3
 - grapheme clusters: 1
@@ -19,7 +19,7 @@ Please send a PR if you know what unit (UTF-8, UTF-16, Codepoints, grapheme clus
 - grapheme clusters: 0
 
 ## Client Count
-- UTF-8: 3
+- UTF-8: 4
 - UTF-16: 3
 - Codepoints: 0
 - grapheme clusters: 1
@@ -148,7 +148,7 @@ If a implementation of the language server protocol is missing from this list pl
 - **unknown** Atom GitHub [atom/atom-languageclient](https://github.com/atom/atom-languageclient)
 - **unknown** CodeMirror Wylie Conlon [wylieconlon/lsp-editor-adapter](https://github.com/wylieconlon/lsp-editor-adapter)
 - **unknown** Emacs Corey Richardson [sourcegraph/emacs-lsp](https://github.com/sourcegraph/emacs-lsp)
-- **unknown** Emacs Vibhav Pant [emacs-lsp/lsp-mode](https://github.com/emacs-lsp/lsp-mode)
+- **UTF-8** Emacs Vibhav Pant [emacs-lsp/lsp-mode](https://github.com/emacs-lsp/lsp-mode)
 - [**UTF-8**, UTF-16 disabled by default](https://github.com/joaotavora/eglot/issues/244) Emacs João Távora [joaotavora/eglot](https://github.com/joaotavora/eglot)
 - [UTF-16; vscode dependency](https://github.com/theia-ide/theia/issues/4739) Theia Theia IDE [theia-ide/theia](https://github.com/theia-ide/theia)
 - **unknown** neovim TJ DeVries [tjdevries/nvim-langserver-shim](https://github.com/tjdevries/nvim-langserver-shim)
