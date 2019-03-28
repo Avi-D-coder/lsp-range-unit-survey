@@ -150,7 +150,7 @@ If a implementation of the language server protocol is missing from this list pl
 - **unknown** Emacs Corey Richardson [sourcegraph/emacs-lsp](https://github.com/sourcegraph/emacs-lsp)
 - **unknown** Emacs Vibhav Pant [emacs-lsp/lsp-mode](https://github.com/emacs-lsp/lsp-mode)
 - [**UTF-8**, UTF-16 disabled by default](https://github.com/joaotavora/eglot/issues/244) Emacs João Távora [joaotavora/eglot](https://github.com/joaotavora/eglot)
-- **unknown** Theia Theia IDE [theia-ide/theia](https://github.com/theia-ide/theia)
+- [UTF-16; vscode dependency](https://github.com/theia-ide/theia/issues/4739) Theia Theia IDE [theia-ide/theia](https://github.com/theia-ide/theia)
 - **unknown** neovim TJ DeVries [tjdevries/nvim-langserver-shim](https://github.com/tjdevries/nvim-langserver-shim)
 - **unknown** Spyder IDE Spyder IDE Dev Team [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
 - **unknown** Oni Oni [onivim/oni](https://github.com/onivim/oni)
