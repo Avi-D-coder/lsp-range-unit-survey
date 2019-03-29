@@ -7,10 +7,10 @@ Please send a PR if you know what unit (UTF-8, UTF-16, Codepoints, grapheme clus
 **unkown** should be replaced with `[**unit**](issue/relevant information)` and count should be updated.
 
 ## Implementations Count
-- UTF-8: 10
+- UTF-8: 11
 - UTF-16: 10
 - Codepoints: 5
-- grapheme clusters: 1
+- grapheme clusters: 0
 
 ## Server Count
 - UTF-8: 6
@@ -19,7 +19,7 @@ Please send a PR if you know what unit (UTF-8, UTF-16, Codepoints, grapheme clus
 - grapheme clusters: 0
 
 ## Client Count
-- UTF-8: 4
+- UTF-8: 5
 - UTF-16: 3
 - Codepoints: 3
 - grapheme clusters: 0
@@ -136,7 +136,7 @@ If a implementation of the language server protocol is missing from this list pl
 - [Codepoints](https://github.com/natebosch/vim-lsc/issues/170) vim/neovim Nate Bosch [natebosch/vim-lsc](https://github.com/natebosch/vim-lsc)
 - [UTF-8; soon maybe UTF-16](https://github.com/prabirshrestha/vim-lsp/pull/284) vim/neovim Prabir Shrestha [prabirshrestha/vim-lsp](https://github.com/prabirshrestha/vim-lsp)
 - [UTF-8](https://github.com/autozimu/LanguageClient-neovim/issues/127) vim/neovim Junfeng Li [autozimu/LanguageClient-neovim](https://github.com/autozimu/LanguageClient-neovim)
-- **unknown** vim/neovim w0rp [w0rp/ale](https://github.com/w0rp/ale)
+- **UTF-8** vim/neovim w0rp [w0rp/ale](https://github.com/w0rp/ale)
 - **UTF-16** vim/neovim Qiming zhao [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
 - [Codepoints](https://github.com/tomv564/LSP/issues/542) Sublime Text 3 Tom van Ommeren [tomv564/LSP](https://github.com/tomv564/LSP)
 - **UTF-16** MS Monaco Editor TypeFox [TypeFox/monaco-languageclient](https://github.com/TypeFox/monaco-languageclient)
