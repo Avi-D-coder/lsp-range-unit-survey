@@ -9,7 +9,7 @@ Please send a PR if you know what unit (UTF-8, UTF-16, Codepoints, grapheme clus
 ## Implementations Count
 - UTF-8: 10
 - UTF-16: 10
-- Codepoints: 3
+- Codepoints: 5
 - grapheme clusters: 1
 
 ## Server Count
@@ -21,8 +21,8 @@ Please send a PR if you know what unit (UTF-8, UTF-16, Codepoints, grapheme clus
 ## Client Count
 - UTF-8: 4
 - UTF-16: 3
-- Codepoints: 0
-- grapheme clusters: 1
+- Codepoints: 3
+- grapheme clusters: 0
 
 note: Multiple implementations in the same repo or derived from a shared dependency are counted once.
 
@@ -130,15 +130,15 @@ If a implementation of the language server protocol is missing from this list pl
 - **unknown** Eclipse LSP4E Eclipse git.eclipse.org/c/lsp4e/lsp4e.git
 - **unknown** Eclipse Che Eclipse, Codenvy [eclipse/che/](https://github.com/eclipse/che/)
 - **unknown** IntelliJ / JetBrains IDEs IntelliJ LSP Community [intellij-lsp/intellij-lsp-plugin](https://github.com/intellij-lsp/intellij-lsp-plugin)
-- [**grapheme clusters**](http://github.com/ul/kak-lsp/issues/98) Kakoune Ruslan Prokopchuk [ul/kak-lsp](https://github.com/ul/kak-lsp)
+- [**Codepoints**](http://github.com/ul/kak-lsp/issues/98) Kakoune Ruslan Prokopchuk [ul/kak-lsp](https://github.com/ul/kak-lsp)
 - **unknown** Moonshine IDE Prominic [prominic/Moonshine-IDE](https://github.com/prominic/Moonshine-IDE)
 - **UTF-16** VSCode Microsoft [Microsoft/VSCode](https://github.com/Microsoft/VSCode)
-- **unknown** vim/neovim Nate Bosch [natebosch/vim-lsc](https://github.com/natebosch/vim-lsc)
+- [Codepoints](https://github.com/natebosch/vim-lsc/issues/170) vim/neovim Nate Bosch [natebosch/vim-lsc](https://github.com/natebosch/vim-lsc)
 - [UTF-8; soon maybe UTF-16](https://github.com/prabirshrestha/vim-lsp/pull/284) vim/neovim Prabir Shrestha [prabirshrestha/vim-lsp](https://github.com/prabirshrestha/vim-lsp)
 - [UTF-8](https://github.com/autozimu/LanguageClient-neovim/issues/127) vim/neovim Junfeng Li [autozimu/LanguageClient-neovim](https://github.com/autozimu/LanguageClient-neovim)
 - **unknown** vim/neovim w0rp [w0rp/ale](https://github.com/w0rp/ale)
 - **UTF-16** vim/neovim Qiming zhao [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
-- **unknown** Sublime Text 3 Tom van Ommeren [tomv564/LSP](https://github.com/tomv564/LSP)
+- [Codepoints](https://github.com/tomv564/LSP/issues/542) Sublime Text 3 Tom van Ommeren [tomv564/LSP](https://github.com/tomv564/LSP)
 - **UTF-16** MS Monaco Editor TypeFox [TypeFox/monaco-languageclient](https://github.com/TypeFox/monaco-languageclient)
 - [**UTF-16**](https://github.com/Valloric/ycmd/pull/857) ycmd ycmd authors [Valloric/ycmd](https://github.com/Valloric/ycmd)
 
