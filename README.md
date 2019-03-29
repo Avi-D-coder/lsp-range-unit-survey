@@ -9,7 +9,7 @@ Please send a PR if you know what unit (UTF-8, UTF-16, Codepoints, grapheme clus
 ## Implementations Count
 - UTF-8: 11
 - UTF-16: 10
-- Codepoints: 5
+- Codepoints: 6
 - grapheme clusters: 0
 
 ## Server Count
