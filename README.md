@@ -8,13 +8,14 @@ Please send a PR if you know what unit (UTF-8, UTF-16, Codepoints, grapheme clus
 
 ## Implementations Count
 - UTF-8: 11
-- UTF-16: 10
+- UTF-16: 11
 - Codepoints: 6
+- Codepoints: 5
 - grapheme clusters: 0
 
 ## Server Count
 - UTF-8: 6
-- UTF-16: 7, Several UTF-16 servers would prefer UTF-8
+- UTF-16: 8, Several UTF-16 servers would prefer UTF-8
 - Codepoints: 3
 - grapheme clusters: 0
 
@@ -40,7 +41,7 @@ If a implementation of the language server protocol is missing from this list pl
 - [**UTF-16, UTF-8**](https://github.com/clangd/clangd/issues/3) C / C++ LLVM Team [clangd/clangd](https://github.com/clangd/clangd)
 - [**UTF-8**] C / C++ Jacob Dufault [cquery-project/cquery](https://github.com/cquery-project/cquery)
 - [**UTF-8**](https://github.com/Microsoft/language-server-protocol/issues/376#issuecomment-476923893) C / C++ MaskRay [MaskRay/ccls](https://github.com/MaskRay/ccls)
-- **unknown** Clojure snoe [snoe/clojure-lsp](https://github.com/snoe/clojure-lsp)
+- [**UTF-16**](https://github.com/snoe/clojure-lsp/issues/23) Clojure snoe [snoe/clojure-lsp](https://github.com/snoe/clojure-lsp)
 - **UTF-16** CSS/LESS/SASS Microsoft [Microsoft/vscode/tree/master/extensions/css](https://github.com/Microsoft/vscode/tree/master/extensions/css)
 - **unknown** CSS/LESS/SASS DeltaEvo [vscode-langservers/vscode-css-languageserver-bin](https://github.com/vscode-langservers/vscode-css-languageserver-bin)
 - [**UTF-16**](https://github.com/Pure-D/serve-d/blob/master/source/served/textdocumentmanager.d) D WebFreak001 [Pure-D/serve-d](https://github.com/Pure-D/serve-d)
