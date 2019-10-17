@@ -74,7 +74,7 @@ If a implementation of the language server protocol is missing from this list pl
 - **unknown** JavaScript (Flow) Flowtype [flowtype/flow-for-vscode](https://github.com/flowtype/flow-for-vscode)
 - **UTF-16** JSON Microsoft [Microsoft/vscode/tree/master/extensions/json](https://github.com/Microsoft/vscode/tree/master/extensions/json)
 - **unknown** JS + PHP + Python SonarSource [SonarSource/sonarlint-core](https://github.com/SonarSource/sonarlint-core)
-- **unknown** Julia David Anthoff [JuliaEditorSupport/LanguageServer.jl](https://github.com/JuliaEditorSupport/LanguageServer.jl)
+- **[Codepoints](https://github.com/julia-vscode/LanguageServer.jl/issues/401)** Julia David Anthoff [JuliaEditorSupport/LanguageServer.jl](https://github.com/JuliaEditorSupport/LanguageServer.jl)
 - **unknown** Kotlin fwcd [fwcd/KotlinLanguageServer](https://github.com/fwcd/KotlinLanguageServer)
 - **unknown** LaTeX Eric Förster [efoerster/texlab](https://github.com/efoerster/texlab)
 - **unknown** Lua Alloyed [Alloyed/lua-lsp](https://github.com/Alloyed/lua-lsp)
