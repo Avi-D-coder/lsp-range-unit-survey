@@ -149,7 +149,7 @@ If a implementation of the language server protocol is missing from this list pl
 - **unknown** Acme Fazlul Shahriar https://[fhs/acme-lsp](https://github.com/fhs/acme-lsp)
 - **unknown** Atom GitHub [atom/atom-languageclient](https://github.com/atom/atom-languageclient)
 - **unknown** CodeMirror Wylie Conlon [wylieconlon/lsp-editor-adapter](https://github.com/wylieconlon/lsp-editor-adapter)
-- **unknown** Emacs Corey Richardson [sourcegraph/emacs-lsp](https://github.com/sourcegraph/emacs-lsp)
+- **[grapheme clusters](https://github.com/sourcegraph/emacs-lsp/blob/b01531e42a9bbd3a049008a59316c2856dda661f/lsp-mode.el#L324)** Emacs Corey Richardson [sourcegraph/emacs-lsp](https://github.com/sourcegraph/emacs-lsp)
 - [UTF-16; vscode dependency](https://github.com/theia-ide/theia/issues/4739) Theia Theia IDE [theia-ide/theia](https://github.com/theia-ide/theia)
 - **unknown** neovim TJ DeVries [tjdevries/nvim-langserver-shim](https://github.com/tjdevries/nvim-langserver-shim)
 - **unknown** Spyder IDE Spyder IDE Dev Team [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
