@@ -10,7 +10,7 @@ Please send a PR if you know what unit (UTF-8, UTF-16, Codepoints, grapheme clus
 - UTF-8: 11
 - UTF-16: 11
 - Codepoints: 7
-- grapheme clusters: 0
+- grapheme clusters: 1
 
 ## Server Count
 - UTF-8: 6
@@ -22,7 +22,7 @@ Please send a PR if you know what unit (UTF-8, UTF-16, Codepoints, grapheme clus
 - UTF-8: 5
 - UTF-16: 3
 - Codepoints: 3
-- grapheme clusters: 0
+- grapheme clusters: 1
 
 note: Multiple implementations in the same repo or derived from a shared dependency are counted once.
 
