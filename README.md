@@ -7,10 +7,10 @@ Please send a PR if you know what unit (UTF-8, UTF-16, Codepoints, grapheme clus
 **unkown** should be replaced with `[**unit**](issue/relevant information)` and count should be updated.
 
 ## Implementations Count
-- UTF-8: 11
+- UTF-8: 10
 - UTF-16: 11
 - Codepoints: 7
-- grapheme clusters: 0
+- grapheme clusters: 1
 
 ## Server Count
 - UTF-8: 6
@@ -19,10 +19,10 @@ Please send a PR if you know what unit (UTF-8, UTF-16, Codepoints, grapheme clus
 - grapheme clusters: 0
 
 ## Client Count
-- UTF-8: 5
+- UTF-8: 4
 - UTF-16: 3
 - Codepoints: 3
-- grapheme clusters: 0
+- grapheme clusters: 1
 
 note: Multiple implementations in the same repo or derived from a shared dependency are counted once.
 
@@ -129,6 +129,8 @@ If a implementation of the language server protocol is missing from this list pl
 # LSP clients
 - **unknown** Eclipse LSP4E Eclipse git.eclipse.org/c/lsp4e/lsp4e.git
 - **unknown** Eclipse Che Eclipse, Codenvy [eclipse/che/](https://github.com/eclipse/che/)
+- **UTF-8** Emacs Vibhav Pant [emacs-lsp/lsp-mode](https://github.com/emacs-lsp/lsp-mode)
+- [**Codepoints**, UTF-16 disabled by default](https://github.com/joaotavora/eglot/issues/244) Emacs João Távora [joaotavora/eglot](https://github.com/joaotavora/eglot)
 - **unknown** IntelliJ / JetBrains IDEs IntelliJ LSP Community [intellij-lsp/intellij-lsp-plugin](https://github.com/intellij-lsp/intellij-lsp-plugin)
 - [**Codepoints**](http://github.com/ul/kak-lsp/issues/98) Kakoune Ruslan Prokopchuk [ul/kak-lsp](https://github.com/ul/kak-lsp)
 - **unknown** Moonshine IDE Prominic [prominic/Moonshine-IDE](https://github.com/prominic/Moonshine-IDE)
@@ -147,9 +149,7 @@ If a implementation of the language server protocol is missing from this list pl
 - **unknown** Acme Fazlul Shahriar https://[fhs/acme-lsp](https://github.com/fhs/acme-lsp)
 - **unknown** Atom GitHub [atom/atom-languageclient](https://github.com/atom/atom-languageclient)
 - **unknown** CodeMirror Wylie Conlon [wylieconlon/lsp-editor-adapter](https://github.com/wylieconlon/lsp-editor-adapter)
-- **unknown** Emacs Corey Richardson [sourcegraph/emacs-lsp](https://github.com/sourcegraph/emacs-lsp)
-- **UTF-8** Emacs Vibhav Pant [emacs-lsp/lsp-mode](https://github.com/emacs-lsp/lsp-mode)
-- [**UTF-8**, UTF-16 disabled by default](https://github.com/joaotavora/eglot/issues/244) Emacs João Távora [joaotavora/eglot](https://github.com/joaotavora/eglot)
+- **[grapheme clusters](https://github.com/sourcegraph/emacs-lsp/blob/b01531e42a9bbd3a049008a59316c2856dda661f/lsp-mode.el#L324)** Emacs Corey Richardson [sourcegraph/emacs-lsp](https://github.com/sourcegraph/emacs-lsp)
 - [UTF-16; vscode dependency](https://github.com/theia-ide/theia/issues/4739) Theia Theia IDE [theia-ide/theia](https://github.com/theia-ide/theia)
 - **unknown** neovim TJ DeVries [tjdevries/nvim-langserver-shim](https://github.com/tjdevries/nvim-langserver-shim)
 - **unknown** Spyder IDE Spyder IDE Dev Team [spyder-ide/spyder](https://github.com/spyder-ide/spyder)
