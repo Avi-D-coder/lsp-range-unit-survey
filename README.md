@@ -7,7 +7,7 @@ Please send a PR if you know what unit (UTF-8, UTF-16, Codepoints, grapheme clus
 **unkown** should be replaced with `[**unit**](issue/relevant information)` and count should be updated.
 
 ## Implementations Count
-- UTF-8: 11
+- UTF-8: 10
 - UTF-16: 11
 - Codepoints: 7
 - grapheme clusters: 1
@@ -19,7 +19,7 @@ Please send a PR if you know what unit (UTF-8, UTF-16, Codepoints, grapheme clus
 - grapheme clusters: 0
 
 ## Client Count
-- UTF-8: 5
+- UTF-8: 4
 - UTF-16: 3
 - Codepoints: 3
 - grapheme clusters: 1
